@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.logo{
+    width: 110px;
+    display: block;
+}
+/* footer-child  */
+.footer-child{
+    display: flex;
+justify-content: space-between;    flex-wrap: wrap;
+}
+.cmn-footer{
+    width: 25%;
+    padding: 0 20px;
+}
+.foot-head{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.link-fo li{
+    margin-bottom: 10px;
+}
+/* footer-child  */
